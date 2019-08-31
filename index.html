@@ -64,14 +64,14 @@
                 </ion-toolbar>
             </ion-header>
             <ion-content padding>
-                <ion-button expand="block" onclick="openMenu()">Open Menu</ion-button>
+                 <ion-button expand="block" onclick="openMenu()">Open Menu</ion-button>
             </ion-content>
         </div>
         <ion-tabs class="tabs-color-active-positive">
             <ion-tab tab="Home">
 
                 <ion-content fullscreen class="ion-padding">
-                    <!-- <h1>Home</h1> -->
+                    <h1>Home</h1>
                 </ion-content>
             </ion-tab>
 
@@ -89,6 +89,24 @@
             </ion-tab>
          </ul>
             </div>
+            <ion-tab-bar slot="top" color="tertiary">
+                <ion-tab-button tab="music">
+                    <ion-label>Home</ion-label>
+                    <ion-icon name="home"></ion-icon>
+                </ion-tab-button>
+                <ion-tab-button tab="movies">
+                    <ion-label>About</ion-label>
+                    <ion-icon name="information-circle"></ion-icon>
+                </ion-tab-button>
+                <ion-tab-button tab="games">
+                    <ion-label>Contact Us</ion-label>
+                    <ion-icon name="information-circle"></ion-icon>
+                </ion-tab-button>
+                <ion-tab-button tab="login" onclick='loginFun()'>
+                    <ion-label>Government Policies</ion-label>
+                    <ion-icon name="person"></ion-icon>
+                </ion-tab-button>
+            </ion-tab-bar>
 
 
             <ion-tab tab="music">

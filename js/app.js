@@ -4,3 +4,4 @@ var loginFun = function() {
     url = url + '/login';
     window.location.href = url; 
 }
+    
